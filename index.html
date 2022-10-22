@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaLineBreak</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/modal.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="shortcut icon" href="/utils/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <div class="content">
+            <section>
+                <div>
+                    <div class="header">
+                        <div class="logo">Logo</div>
+                        <div>
+                            <p class="p-big">Instagram Caption Tool</p>
+                        </div>
+                        <div class="p3">Tool to add line breaks to instagram caption.</div>
+                    </div>
+                    <div>
+                        <button id="GCC">Generate & Copy Caption</button>
+                    </div>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <p class="p1">Copied😊🎉</p>
+                            <p class="p2">Now Paste Caption in Instagram👋🏼</p>
+                            <span id="close" class="close">ALRIGHT</span>
+                        </div>
+                    </div>
+                    <div>
+                        <textarea rows="9" cols="15" type="text" id="caption" class="textinput"
+                            placeholder="Paste your caption" maxlength="2200"></textarea>
+                    </div>
+                    <div class="how-to">
+                            <p>How To Use This Tool?</p>
+                            <ol type="1">
+                                <li>Write up your caption in Instagram with line breaks</li>
+                                <li>Paste it in the text area above</li>
+                                <li>Tap the "Generate & Copy Caption" Button</li>
+                                <li>Paste it as your Instagram caption and post! 😎</li>
+                            </ol>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>Made by <a href="https://www.instagram.com/santoshjogdand_/">Santosh Jogdand </a>&#169; 2022</p>
+        </div>
+    </footer>
+</body>
+<script src="/js/worker.js"></script>
+
+</html>
