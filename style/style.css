@@ -64,9 +64,6 @@ button{
     font-size: 90%;
     font-weight: 530;
 }
-.logo{
-    margin-top: 50px;
-}
 .p3{
     margin-top: 0;
     font-size: 90%;
@@ -76,6 +73,7 @@ button{
     font-size: 200%;
     font-weight: 900;
     margin-bottom: 0;
+    margin-top: -10%;
 }
 .header{
     text-align: center;
@@ -95,4 +93,12 @@ a{
     text-decoration-color: rgb(255, 0, 0);
     color: rgb(252, 59, 59);
     
+}
+img{
+    width: 100%;
+    margin-bottom: 0%;
+}
+.logo{
+    margin-bottom: 0;
+    width: 30%;
 }
