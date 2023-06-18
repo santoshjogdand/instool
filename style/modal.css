@@ -17,16 +17,19 @@
     padding: 20px;
     border: 1px solid rgb(174, 174, 174);
     border-radius: 9px;
-    width: 20%; /* Could be more or less, depending on screen size */
+    max-width: 30%;
+    min-width: 27%; /* Could be more or less, depending on screen size */
     font-family: 'Heebo', sans-serif;
     
   }
 
   .close {
     color: #aaa;
-    margin-left: 70%;
+    /* margin-left: 70%; */
     font-weight: 400;
     color: orange;
+    position: relative;
+    left: 36%;
   }
   
   .close:hover,
