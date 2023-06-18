@@ -9,7 +9,8 @@ clickbutton.onclick = function(){
     console.log("We are onlin");
     let text = document.getElementById('caption').value;
     console.log(text);
-    let result = text.replace(/(\r\n|\r|\n)/g, '⁣\n')
+    let result1 = text.replace(/ /gi," ")
+    let result = result1.replace(/(\r\n|\r|\n)/g, ' \n')
     console.log(result);
     navigator.clipboard.writeText(result);
     modbox.style.display = 'block';
@@ -19,3 +20,4 @@ window.onclick = function(event) {
       modbox.style.display = "none";
     }
   }
+
