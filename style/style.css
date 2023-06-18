@@ -218,8 +218,9 @@ img{
 }
 .blink {
     animation: blinker 1.5s linear infinite;
-    color: red;
-    font-family: sans-serif;
+    color: rgb(245, 163, 11);
+    font-family: 'Heebo', sans-serif;
+    font-weight: 1000;
 }
 @keyframes blinker {
     50% {
